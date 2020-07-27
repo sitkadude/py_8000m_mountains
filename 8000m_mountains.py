@@ -114,7 +114,7 @@ mountains = {
 
 for mountain, mountain_info in mountains.items():
     print(f'\nMountain: {mountain.title()}')
-    print(f"Elevation: {mountain_info['elevation']}")
-    print(f"Range: {mountain_info['sub_range'].title()} {mountain_info['range'].title()}")
-    print(f"Latitude: {mountain_info['lat']}")
-    print(f"Longitude: {mountain_info['lon']}")
+    print(f"\tElevation(m): {mountain_info['elevation']}")
+    print(f"\tRange: {mountain_info['sub_range'].title()} {mountain_info['range'].title()}")
+    print(f"\tLatitude: {mountain_info['lat']}")
+    print(f"\tLongitude: {mountain_info['lon']}")
